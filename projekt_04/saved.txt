@@ -1,0 +1,353 @@
+[
+  {
+    "Artyk\u00f3\u0142": "Nieznani sprawcy zniszczyli samochody Medyk\u00f3w na Granicy"
+  },
+  {
+    "Artyk\u00f3\u0142": "W\u0142adimir Putin: Rosja jest gotowa pom\u00f3c w rozwi\u0105zaniu kryzysu migracyjnego"
+  },
+  {
+    "Artyk\u00f3\u0142": "El\u017cbieta II nagle odwo\u0142a\u0142a swoje plany. Wszystko z powodu urazu"
+  },
+  {
+    "Artyk\u00f3\u0142": "7. Dzie\u0144 Tygodnia w Radiu Zet. Gor\u0105ca dyskusja o sytuacji na granicy. Wzburzona Anna Zalewska o Frontexie: ze spinaczami p\u00f3jd\u0105?"
+  },
+  {
+    "Artyk\u00f3\u0142": "Koronawirus w Polsce. Najnowsze dane o zaka\u017ceniach"
+  },
+  {
+    "Artyk\u00f3\u0142": "Doradca prezydenta zaatakowa\u0142 weteranki powstania: zdemencia\u0142e archeocelebrytki. P\u00f3\u017aniej przeprasza\u0142"
+  },
+  {
+    "Artyk\u00f3\u0142": "ZOBACZ WI\u0118CEJ"
+  },
+  {
+    "Artyk\u00f3\u0142": "Papie\u017c do dziennikarzy: dzi\u0119kuj\u0119 za g\u0142os, jaki dali\u015bcie ofiarom nadu\u017cy\u0107"
+  },
+  {
+    "Artyk\u00f3\u0142": "Zgorzelski o kryzysie migracyjnym: \u0141ukaszenko jest mi\u0119dzynarodowym bandyt\u0105"
+  },
+  {
+    "Artyk\u00f3\u0142": "Kolejne kolumny migrant\u00f3w zmierzaj\u0105 na granic\u0119. Do sieci trafiaj\u0105 niepokoj\u0105ce nagrania"
+  },
+  {
+    "Artyk\u00f3\u0142": "Kierowa\u0142 sanepidem, zajmie si\u0119 produkcj\u0105 pieni\u0119dzy w pa\u0144stwowej sp\u00f3\u0142ce"
+  },
+  {
+    "Artyk\u00f3\u0142": "Karambol na A4. Zderzenie pi\u0119ciu samochod\u00f3w i korki w stron\u0119 granicy"
+  },
+  {
+    "Artyk\u00f3\u0142": "Szef unijnej dyplomacji rozmawia\u0142 z bia\u0142oruskim MSZ. \"Ta sytuacja musi zosta\u0107 przerwana\""
+  },
+  {
+    "Artyk\u00f3\u0142": "G\u0142az pami\u0105tkowy na cmentarzu w Nowej Wsi E\u0142ckiej"
+  },
+  {
+    "Artyk\u00f3\u0142": "Antysemicka demonstracja w Kaliszu. Zdecydowana reakcja Gminy Wyznaniowej \u017bydowskiej"
+  },
+  {
+    "Artyk\u00f3\u0142": "Eksperci krytyczni wobec projektu nowych symboli narodowych"
+  },
+  {
+    "Artyk\u00f3\u0142": "W nocy nieznani sprawcy zniszczyli ich samochody. Medycy na Granicy przedwcze\u015bnie ko\u0144cz\u0105 sw\u00f3j projekt"
+  },
+  {
+    "Artyk\u00f3\u0142": "Dlaczego Stany Zjednoczone alarmuj\u0105 w sprawie mo\u017cliwej inwazji Rosji na Ukrain\u0119 [ANALIZA]"
+  },
+  {
+    "Artyk\u00f3\u0142": "Auto sp\u0142on\u0119\u0142o w Prudniku. Straty szacuje si\u0119 na 40 tys. z\u0142"
+  },
+  {
+    "Artyk\u00f3\u0142": "Oszukiwa\u0142 przedsi\u0119biorc\u00f3w metod\u0105 \"na ambasadora\". Nowe fakty"
+  },
+  {
+    "Artyk\u00f3\u0142": "Stra\u017cacy odkryli zw\u0142oki ma\u0142\u017ce\u0144stwa w spalonym budynku"
+  },
+  {
+    "Artyk\u00f3\u0142": "W\u0142adimir Putin: Rosja jest gotowa pom\u00f3c w rozwi\u0105zaniu kryzysu migracyjnego"
+  },
+  {
+    "Artyk\u00f3\u0142": "\u015amier\u0107 17-latka z Gniezna. Areszt dla oskar\u017conego"
+  },
+  {
+    "Artyk\u00f3\u0142": "Najwi\u0119kszy samolot na \u015bwiecie wyl\u0105dowa\u0142 pod Rzeszowem"
+  },
+  {
+    "Artyk\u00f3\u0142": "Premier: nie planujemy wprowadzenia lockdownu w formie z poprzedniego roku"
+  },
+  {
+    "Artyk\u00f3\u0142": "Nieznani sprawcy zniszczyli samochody Medyk\u00f3w na Granicy"
+  },
+  {
+    "Artyk\u00f3\u0142": "Mateusz Morawiecki: razem z Litw\u0105 i \u0141otw\u0105 rozwa\u017camy uruchomienie artyku\u0142u 4. NATO"
+  },
+  {
+    "Artyk\u00f3\u0142": "M\u0142odzi wracaj\u0105 z du\u017cych miast na prowincj\u0119. Wszystko przez koronawirusa"
+  },
+  {
+    "Artyk\u00f3\u0142": "El\u017cbieta II nagle odwo\u0142a\u0142a swoje plany. Wszystko z powodu urazu"
+  },
+  {
+    "Artyk\u00f3\u0142": "Prezydent Andrzej Duda o wydarzeniach w Kaliszu: stanowczo pot\u0119piam wszelkie akty antysemityzmu"
+  },
+  {
+    "Artyk\u00f3\u0142": "Tragiczny wypadek na S5. Zgin\u0119\u0142a jedna osoba"
+  },
+  {
+    "Artyk\u00f3\u0142": "Koniec d\u0142ugiego weekendu w Zakopanem. G\u0142\u00f3wne ulice miasta nieprzejezdne"
+  },
+  {
+    "Artyk\u00f3\u0142": "Doradca prezydenta zaatakowa\u0142 weteranki powstania: zdemencia\u0142e archeocelebrytki. P\u00f3\u017aniej przeprasza\u0142"
+  },
+  {
+    "Artyk\u00f3\u0142": "Ukrad\u0142 przedmioty o warto\u015bci 180 tys. Grozi mu do 10 lat wi\u0119zienia"
+  },
+  {
+    "Artyk\u00f3\u0142": "Koronawirus w Polsce. Najnowsze dane o zaka\u017ceniach"
+  },
+  {
+    "Artyk\u00f3\u0142": "\"Smog to kwestia zap\u00f3\u017anie\u0144 cywilizacyjnych. Rz\u0105d i pa\u0144stwowe sp\u00f3\u0142ki powinny uderzy\u0107 si\u0119 w pier\u015b\""
+  },
+  {
+    "Artyk\u00f3\u0142": "Kopciuchy na \u015bmietnik. Od nowego roku zakaz u\u017cywania starych piec\u00f3w w\u0119glowych w \u015al\u0105skiem"
+  },
+  {
+    "Artyk\u00f3\u0142": "Chc\u0105 poprawy ochrony powietrza, st\u0105d pozew. \"Nie domagamy si\u0119 odszkodowania\""
+  },
+  {
+    "Artyk\u00f3\u0142": "Wypadek na Mokotowie. Z samochodu wypad\u0142 silnik"
+  },
+  {
+    "Artyk\u00f3\u0142": "Autorka bestsellera o zanieczyszczeniu powietrza: polskie przywi\u0105zanie do w\u0119gla drastycznie zaw\u0119zi\u0142o perspektyw\u0119"
+  },
+  {
+    "Artyk\u00f3\u0142": "\"Nie tylko Krak\u00f3w czy \u015al\u0105sk. Smog w Polsce to przede wszystkim ma\u0142e miejscowo\u015bci i wioski\""
+  },
+  {
+    "Artyk\u00f3\u0142": "7. Dzie\u0144 Tygodnia w Radiu Zet. Gor\u0105ca dyskusja o sytuacji na granicy. Wzburzona Anna Zalewska o Frontexie: ze spinaczami p\u00f3jd\u0105?"
+  },
+  {
+    "Artyk\u00f3\u0142": "Ma\u0142opolska przegrywa walk\u0119 ze smogiem. Kopciuchy znikn\u0105 za 35 lat"
+  },
+  {
+    "Artyk\u00f3\u0142": "Pandemia ponownie uderza w Europ\u0119. Coraz wi\u0119cej kraj\u00f3w zaostrza przepisy"
+  },
+  {
+    "Artyk\u00f3\u0142": "Po\u017car wie\u017cowca w \u0141odzi. Zgin\u0119\u0142a kobieta"
+  },
+  {
+    "Artyk\u00f3\u0142": "Szokuj\u0105ce wpisy na koncie prezydenta Olsztyna. Grzymowicz t\u0142umaczy"
+  },
+  {
+    "Artyk\u00f3\u0142": "\"Ropa i krew\". W ci\u0105gu kilku chwil miliarderzy stracili fortuny [FRAGMENT KSI\u0104\u017bKI]"
+  },
+  {
+    "Artyk\u00f3\u0142": "To prawda czy fa\u0142sz? Trudny quiz, w kt\u00f3rym mo\u017ce ci si\u0119 poszcz\u0119\u015bci\u0107!"
+  },
+  {
+    "Artyk\u00f3\u0142": "Incydent na granicy polsko-bia\u0142oruskiej. Na polsk\u0105 stron\u0119 wdar\u0142o si\u0119 oko\u0142o 50 imigrant\u00f3w"
+  },
+  {
+    "Artyk\u00f3\u0142": "By\u0142 gangstersk\u0105 legend\u0105 lat 90. Zmar\u0142, szykuj\u0105c si\u0119 do szerszego ujawnienia zwi\u0105zk\u00f3w polityk\u00f3w z gangami"
+  },
+  {
+    "Artyk\u00f3\u0142": "Czy \u015al\u0105sk b\u0119dzie oddycha\u0142 czystym powietrzem? \"Zero tolerancji dla tych, kt\u00f3rzy nie zrobili nic\" [WIDEO]"
+  },
+  {
+    "Artyk\u00f3\u0142": "Pogoda na niedziel\u0119. B\u0119dzie ch\u0142odno i deszczowo"
+  },
+  {
+    "Artyk\u00f3\u0142": "S\u0105siedzi truj\u0105 Krak\u00f3w. Do wymiany ponad 21 tys. kopciuch\u00f3w"
+  },
+  {
+    "Artyk\u00f3\u0142": "Imperium ksi\u0119dza Natanka. Jego kompleks przypomina \u015bredniowieczn\u0105 warowni\u0119"
+  },
+  {
+    "Artyk\u00f3\u0142": "Trudna sytuacja chrze\u015bcijan w Libanie. Ks. Cis\u0142o: problemy ekonomiczne pot\u0119guj\u0105 liczb\u0119 samob\u00f3jstw"
+  },
+  {
+    "Artyk\u00f3\u0142": "Bia\u0142ystok - jakiej pogody mo\u017cemy si\u0119 spodziewa\u0107 14.11.2021?"
+  },
+  {
+    "Artyk\u00f3\u0142": "Kielce. Prognoza pogody w dniu 14.11.2021"
+  },
+  {
+    "Artyk\u00f3\u0142": "Krak\u00f3w. Prognoza pogody w dniu 14.11.2021"
+  },
+  {
+    "Artyk\u00f3\u0142": "Toru\u0144: Jaka pogoda na dzi\u015b? Prognoza w dniu 14.11.2021"
+  },
+  {
+    "Artyk\u00f3\u0142": "Lublin: Jaka pogoda na dzi\u015b? Prognoza w dniu 14.11.2021"
+  },
+  {
+    "Artyk\u00f3\u0142": "Zielona G\u00f3ra - prognoza pogody w dniu 14.11.2021"
+  },
+  {
+    "Artyk\u00f3\u0142": "Piotrk\u00f3w Trybunalski. Prognoza pogody w dniu 14.11.2021"
+  },
+  {
+    "Artyk\u00f3\u0142": "Olsztyn: Jaka pogoda na dzi\u015b? Prognoza w dniu 14.11.2021"
+  },
+  {
+    "Artyk\u00f3\u0142": "Opole. Jaka pogoda czeka nas 14.11.2021?"
+  },
+  {
+    "Artyk\u00f3\u0142": "Pozna\u0144: jaka pogoda czeka nas 14.11.2021?"
+  },
+  {
+    "Artyk\u00f3\u0142": "Rzesz\u00f3w. Sprawd\u017a prognoz\u0119 pogody w dniu 14.11.2021"
+  },
+  {
+    "Artyk\u00f3\u0142": "Szczecin. Jaka pogoda czeka nas 14.11.2021?"
+  },
+  {
+    "Artyk\u00f3\u0142": "Katowice - 14.11.2021. Prognoza pogody w mie\u015bcie"
+  },
+  {
+    "Artyk\u00f3\u0142": "Gda\u0144sk. Jaka pogoda czeka nas 14.11.2021?"
+  },
+  {
+    "Artyk\u00f3\u0142": "Warszawa: jaka pogoda czeka nas 14.11.2021?"
+  },
+  {
+    "Artyk\u00f3\u0142": "Wroc\u0142aw - 14.11.2021. Jaka b\u0119dzie pogoda w mie\u015bcie?"
+  },
+  {
+    "Artyk\u00f3\u0142": "Katastrofa awionetki w USA. Cztery osoby nie \u017cyj\u0105"
+  },
+  {
+    "Artyk\u00f3\u0142": "COP26. Cz\u0119\u015b\u0107 \u015bwiatowych przyw\u00f3dc\u00f3w jest rozczarowanych szczytem w Glasgow"
+  },
+  {
+    "Artyk\u00f3\u0142": "Wyniki Lotto, Lotto Plus, Mini Lotto, Ekstra Pensja, Ekstra Premia, Kaskada, Multi Multi, Super Szansa - 13.11.2021"
+  },
+  {
+    "Artyk\u00f3\u0142": "We Francji wykryto nowy wariant koronawirusa"
+  },
+  {
+    "Artyk\u00f3\u0142": "Desperat z siekier\u0105 wszed\u0142 do galerii handlowej i grozi\u0142, \u017ce pope\u0142ni samob\u00f3jstwo"
+  },
+  {
+    "Artyk\u00f3\u0142": "Prokuratura wyja\u015bnia kulisy \u015bmiertelnego pobicia zakonnika"
+  },
+  {
+    "Artyk\u00f3\u0142": "\"Uk\u0142ad wok\u00f3\u0142 Turowa\". \"Superwizjer\" ujawnia kulisy funkcjonowania elektrowni"
+  },
+  {
+    "Artyk\u00f3\u0142": "Stan po Burzy. Kaczy\u0144ski straszy Zachodem, B\u0105kiewicz na pasku PiS, a Paw\u0142owicz pokutuje za sw\u00f3j udzia\u0142 w skazaniu Kami\u0144skiego"
+  },
+  {
+    "Artyk\u00f3\u0142": "Jest porozumienie ko\u0144cowe COP26"
+  },
+  {
+    "Artyk\u00f3\u0142": "Brak zaufania do w\u0142adz hamuje szczepienia w Europie Wschodniej, nap\u0119dzaj\u0105c now\u0105 fal\u0119 zachorowa\u0144 na COVID"
+  },
+  {
+    "Artyk\u00f3\u0142": "Polski \u017co\u0142nierz zmar\u0142 przy granicy polsko-bia\u0142oruskiej. \"Nieszcz\u0119\u015bliwy wypadek\""
+  },
+  {
+    "Artyk\u00f3\u0142": "Narodowcy demonstrowali w Gda\u0144sku. Kontrmanifestacja pod has\u0142em \"Stop faszyzm\""
+  },
+  {
+    "Artyk\u00f3\u0142": "Syryjskie linie lotnicze zawieszaj\u0105 loty do Mi\u0144ska"
+  },
+  {
+    "Artyk\u00f3\u0142": "Szef izraelskiego MSZ reaguje na antysemicki marsz w Kaliszu. \"Przera\u017caj\u0105cy incydent\""
+  },
+  {
+    "Artyk\u00f3\u0142": "Pierwsza ofiara erupcji wulkanu Cumbre Vieja. Pod m\u0119\u017cczyzn\u0105 zawali\u0142 si\u0119 dach"
+  },
+  {
+    "Artyk\u00f3\u0142": "M\u0119\u017cczyzna spad\u0142 z czwartego pi\u0119tra, pr\u00f3buj\u0105c przej\u015b\u0107 mi\u0119dzy balkonami"
+  },
+  {
+    "Artyk\u00f3\u0142": "Europa epicentrum COVID-19. WHO wskazuje na fatalne statystyki"
+  },
+  {
+    "Artyk\u00f3\u0142": "Antysemickie ataki w Niemczech. Nowe niepokoj\u0105ce dane"
+  },
+  {
+    "Artyk\u00f3\u0142": "Czy nie zabraknie lek\u00f3w? Chi\u0144skie problemy mog\u0105 odbi\u0107 si\u0119 czkawk\u0105 w polskich aptekach"
+  },
+  {
+    "Artyk\u00f3\u0142": "Polacy ocenili dzia\u0142ania rz\u0105du na granicy z Bia\u0142orusi\u0105. Sonda\u017c"
+  },
+  {
+    "Artyk\u00f3\u0142": "Bia\u0142oru\u015b przygotowuje zimowy ob\u00f3z na granicy, przybywa te\u017c uzbrojonych funkcjonariuszy. Nagrania"
+  },
+  {
+    "Artyk\u00f3\u0142": "Zbigniew Gryglas dwa miesi\u0105ce temu odszed\u0142 z rz\u0105du. Odnalaz\u0142 si\u0119 w radzie nadzorczej PGE"
+  },
+  {
+    "Artyk\u00f3\u0142": "Kaliskie Ko\u015bcio\u0142y o antysemickim marszu: bolesne wydarzenia"
+  },
+  {
+    "Artyk\u00f3\u0142": "Dramatyczna sytuacja w Bawarii. Wkr\u00f3tce nowe obostrzenia"
+  },
+  {
+    "Artyk\u00f3\u0142": "P\u00e9ter M\u00e1rki-Zay \u2013 pierwszy od lat w\u0119gierski polityk, kt\u00f3ry ma szans\u0119 pokona\u0107 Viktora Orb\u00e1na [WYWIAD]"
+  },
+  {
+    "Artyk\u00f3\u0142": "Krowa wpad\u0142a do szamba. Stra\u017cacy uratowali zwierz\u0119"
+  },
+  {
+    "Artyk\u00f3\u0142": "Stanis\u0142aw \u017baryn: w\u015br\u00f3d migrant\u00f3w rozpuszczane s\u0105 plotki, \u017ce przyjad\u0105 po nich autobusy z Niemiec"
+  },
+  {
+    "Artyk\u00f3\u0142": "Napadli na m\u0119\u017cczyzn\u0119 w jego mieszkaniu. Pomaga\u0142a im 15-latka. Ukradli telefony i torb\u0119 z ubraniami"
+  },
+  {
+    "Artyk\u00f3\u0142": "Dok\u0105d nas zaprowadzi g\u0142upota polityk\u00f3w w epoce zmian klimatycznych [ESEJ]"
+  },
+  {
+    "Artyk\u00f3\u0142": "Wybuchu gazu w \u015acinawie. Dom musi zosta\u0107 rozebrany"
+  },
+  {
+    "Artyk\u00f3\u0142": "Polscy katolicy zostali sami. Nie b\u0119dzie drugiego Chile [KOMENTARZ]"
+  },
+  {
+    "Artyk\u00f3\u0142": "Izraelskie media o marszu w Kaliszu. \"Te zdj\u0119cia przyprawiaj\u0105 o dreszcze\""
+  },
+  {
+    "Artyk\u00f3\u0142": "Lewica przedstawi\u0142a \"Raport o stanie pa\u0144stwa\" pod rz\u0105dami PiS"
+  },
+  {
+    "Artyk\u00f3\u0142": "Czarne chmury nad Danielem Obajtkiem. Nowogrodzka traci cierpliwo\u015b\u0107"
+  },
+  {
+    "Artyk\u00f3\u0142": "22-latek nie zatrzyma\u0142 si\u0119 do kontroli drogowej. Jecha\u0142 bez prawa jazdy"
+  },
+  {
+    "Artyk\u00f3\u0142": "Szef MSWiA o marszu w Kaliszu: mam nadziej\u0119, \u017ce organizatorzy ponios\u0105 konsekwencje"
+  },
+  {
+    "Artyk\u00f3\u0142": "Uciek\u0142 z miejsca wypadku w Olsztynie. Policja z\u0142apa\u0142a poszukiwanego kierowc\u0119"
+  },
+  {
+    "Artyk\u00f3\u0142": "W Polskim \u0141adzie po cichu odebrano wszystkim medykom status wolnego zawodu. \"W\u0142adza nie ma ju\u017c hamulc\u00f3w\""
+  },
+  {
+    "Artyk\u00f3\u0142": "Koronawirus w Polsce. Nowe dane o zaka\u017ceniach"
+  },
+  {
+    "Artyk\u00f3\u0142": "M\u0119\u017cczyzna przy\u0142apany na kradzie\u017cy alkoholu. Aby unikn\u0105\u0107 aresztu podawa\u0142 si\u0119 za swojego brata"
+  },
+  {
+    "Artyk\u00f3\u0142": "W\u0142adimir Putin o gro\u017abach \u0141ukaszenki. \"Teoretycznie mo\u017ce to zrobi\u0107\""
+  },
+  {
+    "Artyk\u00f3\u0142": "Stra\u017c Graniczna: w nocy w rejonie Czeremchy bia\u0142oruscy \u017co\u0142nierze zacz\u0119li niszczy\u0107 tymczasow\u0105 zapor\u0119 graniczn\u0105"
+  },
+  {
+    "Artyk\u00f3\u0142": "Szef MSWiA poinformowa\u0142 co po stanie wyj\u0105tkowym. Zmiany dla dziennikarzy"
+  },
+  {
+    "Artyk\u00f3\u0142": "Szef Nowoczesnej zawiadamia prokuratur\u0119 w sprawie marszu w Kaliszu"
+  },
+  {
+    "Artyk\u00f3\u0142": "Jej wyst\u0119p w TVP sta\u0142 si\u0119 hitem w sieci. \"Jak uznamy, \u017ce drugi cz\u0142owiek jest od nas gorszy, to jak wyci\u0105gniemy do niego r\u0119k\u0119?\""
+  },
+  {
+    "Artyk\u00f3\u0142": "W poniedzia\u0142ek wysz\u0142a z domu i jeszcze nie wr\u00f3ci\u0142a. Policjanci poszukuj\u0105 43-latki"
+  }
+]
