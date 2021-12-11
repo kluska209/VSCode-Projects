@@ -30,33 +30,27 @@ def import_data(file_n, colx, coly, cell_n):
     return data
 
 #pobieram dane o źródle światła białego
-white_spectra = import_data('\\white_source.xlsx', 'A', 'B', 'B645')
+white_spectra = import_data('\\source\\white.xlsx', 'A', 'B', 'B645')
 
 #pobieram dane o diodach LED
-red_spectrum = import_data('\\LED.xlsx', 'A', 'B', 'B876')
-orange_spectrum = import_data('\\LED.xlsx', 'E', 'F', 'F746')
-yellow_spectrum = import_data('\\LED.xlsx', 'I', 'J', 'J687')
-green_spectrum = import_data('\\LED.xlsx', 'M', 'N', 'N637')
-blue_spectrum = import_data('\\LED.xlsx', 'Q', 'R', 'R329')
+leds = {}
+for led in [['red', 'A', 'B', 'B876'], ['orange', 'E', 'F', 'F746'], ['yellow', 'I', 'J', 'J687' ],
+['green', 'M', 'N', 'N637'], ['blue', 'Q', 'R', 'R329'], ['uv', 'U', 'V', 'V162']]:
+    leds[f'{led[0]}_spectrum'] = import_data('\\source\\leds.xlsx', led[1], led[2], led[3])
 
 #pobieram dane o olejach 
-diesel_abs = import_data('\\diesel.xlsx', 'A', 'B', None)
-engine_castrol_abs = import_data('\\engine_castrol.xlsx', 'A', 'B', None)
-engine_abs = import_data('\\engine.xlsx', 'A', 'B', None)
-machine_abs = import_data('\\machine.xlsx', 'A', 'B', None)
-gear_abs = import_data('\\gear.xlsx', 'A', 'B', None)
-olive_abs = import_data('\\olive.xlsx', 'A', 'B', None)
-rapeseed_abs = import_data('\\rapeseed.xlsx', 'A', 'B', None)
-sunflower_abs = import_data('\\sunflower.xlsx', 'A', 'B', None)
-
-diesel_trans = import_data('\\diesel.xlsx', 'E', 'F', None)
-engine_castrol_trans = import_data('\\engine_castrol.xlsx', 'E', 'F', None)
-engine_trans = import_data('\\engine.xlsx', 'E', 'F', None)
-machine_trans = import_data('\\machine.xlsx', 'E', 'F', None)
-gear_trans = import_data('\\gear.xlsx', 'E', 'F', None)
-olive_trans = import_data('\\olive.xlsx', 'E', 'F', None)
-rapeseed_trans = import_data('\\rapeseed.xlsx', 'E', 'F', None)
-sunflower_trans = import_data('\\sunflower.xlsx', 'E', 'F', None)
+abs = {}
+trans = {}
+for oil in [['diesel', '\\diesel\\diesel.xlsx'], ['castrol_edge_0w20', '\\engine\\Castrol EDGE 0W-20.xlsx'],
+['castrol_edge_0w30', '\\engine\\Castrol EDGE 0W-30.xlsx'], ['castrol_magnatec', '\\engine\\Castrol MAGNATEC.xlsx'],
+['comma_pro-nrg', '\\engine\\COMMA Pro-NRG.xlsx'], ['comma_xtech', '\\engine\\COMMA Xtech.xlsx'],
+['elf_evolution', '\\engine\\elf EVOLUTION.xlsx'], ['millers_oils', '\\engine\\MILLERS OILS.xlsx'],
+['mobil_super_2000', '\\engine\\Mobil Super 2000.xlsx'], ['motul_specific', '\\engine\\MOTUL Specific.xlsx'],
+['comma_asw', '\\gear\\COMMA ASW.xlsx'], ['febi_bilstein_axle_drive', '\\gear\\febi bilstein axle drive.xlsx'],
+['febi_bilstein_gear_oil', '\\gear\\febi bilstein gear oil.xlsx'],
+['olive', '\\cooking\\olive.xlsx'], ['rapeseed', '\\cooking\\rapeseed.xlsx'], ['sunflower', '\\cooking\\sunflower.xlsx']]:
+    abs[f'{oil[0]}_abs'] = import_data(oil[1], 'A', 'B', None)
+    trans[f'{oil[0]}_trans'] = import_data(oil[1], 'E', 'F', None)
 
 def set_fig_properties(fig):
     fig.background_fill_color = all_palettes['Greys'][9][7]
@@ -77,83 +71,56 @@ set_fig_properties(fig_white)
 white_line = fig_white.line('x', 'y', source = white_spectra, name = 'white_line', color = all_palettes['Dark2'][6][5])
 white_patch = fig_white.patch('x', source = white_spectra, name = 'white_patch', color = all_palettes['Dark2'][6][5], alpha = 0.2)
 
-#tworzę wykres diod LED
-fig_LED = figure(x_range = (400,750), x_axis_label = 'Wavelength [nm]', y_axis_label = 'Light intensity [a.u.]',
-             title = 'LED diodes\' spectra', width = 900, height = 580)
-set_fig_properties(fig_LED)
-
-red_line = fig_LED.line('x', 'y', source = red_spectrum, name = 'red_line', legend_label = 'RED', color = all_palettes['Spectral'][11][10])
-red_patch = fig_LED.patch('x', source = red_spectrum, name = 'red_patch', legend_label = 'RED', color = all_palettes['Spectral'][11][10], alpha = 0.2)
-orange_line = fig_LED.line('x', 'y', source = orange_spectrum, name = 'orange_line', legend_label = 'ORANGE', color = all_palettes['Set2'][6][1])
-orange_patch = fig_LED.patch('x', source = orange_spectrum, name = 'orange_patch', legend_label = 'ORANGE', color = all_palettes['Set2'][6][1], alpha = 0.2)
-yellow_line = fig_LED.line('x', 'y', source = yellow_spectrum, name = 'yellow_line', legend_label = 'YELLOW', color = all_palettes['Set2'][6][5])
-yellow_patch = fig_LED.patch('x', source = yellow_spectrum, name = 'yellow_patch', legend_label = 'YELLOW', color = all_palettes['Set2'][6][5], alpha = 0.2)
-green_line = fig_LED.line('x', 'y', source = green_spectrum, name = 'green_line', legend_label = 'GREEN', color = all_palettes['PuBuGn'][5][0])
-green_patch = fig_LED.patch('x', source = green_spectrum, name = 'green_patch', legend_label = 'GREEN',color = all_palettes['PuBuGn'][5][0], alpha = 0.2)
-blue_line = fig_LED.line('x', 'y', source = blue_spectrum, name = 'blue_line', legend_label = 'BLUE', color = all_palettes['Spectral'][11][1])
-blue_patch = fig_LED.patch('x', source = blue_spectrum, name = 'blue_patch', legend_label = 'BLUE', color = all_palettes['Spectral'][11][1], alpha = 0.2)
-
-fig_LED.legend.click_policy = "hide"
-
-#tworzę wykres dla widm absorpcyjnych
-fig_abs = figure(x_range = (400,800), x_axis_label = 'Wavelength [nm]', y_axis_label = 'Absorbance [OD]',
-             title = 'Oil\'s absorption spectrum', width = 900, height = 296)
-set_fig_properties(fig_abs)
-
-diesel_abs_line = fig_abs.line('x', 'y', source = diesel_abs, name = 'diesel_abs_line', legend_label = 'DIESEL', color = all_palettes['Set2'][3][2])
-engine_castrol_abs_line = fig_abs.line('x', 'y', source = engine_castrol_abs, name = 'engine_castrol_abs_line', legend_label = 'ENGINE_CASTROL', color = all_palettes['Set2'][3][1])
-engine_abs_line = fig_abs.line('x', 'y', source = engine_abs, name = 'engine_abs_line', legend_label = 'ENGINE', color = all_palettes['Set2'][3][0])
-machine_abs_line = fig_abs.line('x', 'y', source = machine_abs, name = 'machine_abs_line', legend_label = 'MACHINE', color = all_palettes['Set2'][4][3])
-gear_abs_line = fig_abs.line('x', 'y', source = gear_abs, name = 'gear_abs_line', legend_label = 'GEAR', color = all_palettes['Set3'][12][3])
-olive_abs_line = fig_abs.line('x', 'y', source = olive_abs, name = 'olive_abs_line', legend_label = 'OLIVE', color = all_palettes['Set3'][12][4])
-rapeseed_abs_line = fig_abs.line('x', 'y', source = rapeseed_abs, name = 'rapeseed_abs_line', legend_label = 'RAPESEED', color = all_palettes['Set3'][12][0])
-sunflower_abs_line = fig_abs.line('x', 'y', source = sunflower_abs, name = 'sunflower_abs_line', legend_label = 'SUNFLOWER', color = all_palettes['Set3'][12][7])
-
-fig_abs.legend.visible = False 
-
-#tworzę wykres dla widm transmisyjnych
-fig_trans = figure(x_range = (400,800), y_range = (-10, 100), x_axis_label = 'Wavelength [nm]', y_axis_label = 'Transmitance [%]',
-             title = 'Oil\'s transmission spectrum', width = 900, height = 296)
-set_fig_properties(fig_trans)
-
-diesel_trans_line = fig_trans.line('x', 'y', source = diesel_trans, name = 'diesel_trans_line', legend_label = 'DIESEL', color = all_palettes['Set2'][3][2])
-engine_castrol_trans_line = fig_trans.line('x', 'y', source = engine_castrol_trans, name = 'engine_castrol_trans_line', legend_label = 'ENGINE_CASTROL', color = all_palettes['Set2'][3][1])
-engine_trans_line = fig_trans.line('x', 'y', source = engine_trans, name = 'engine_trans_line', legend_label = 'ENGINE', color = all_palettes['Set2'][3][0])
-machine_trans_line = fig_trans.line('x', 'y', source = machine_trans, name = 'machine_trans_line', legend_label = 'MACHINE', color = all_palettes['Set2'][4][3])
-gear_trans_line = fig_trans.line('x', 'y', source = gear_trans, name = 'gear_trans_line', legend_label = 'GEAR', color = all_palettes['Set3'][12][3])
-olive_trans_line = fig_trans.line('x', 'y', source = olive_trans, name = 'olive_trans_line', legend_label = 'OLIVE', color = all_palettes['Set3'][12][4])
-rapeseed_trans_line = fig_trans.line('x', 'y', source = rapeseed_trans, name = 'rapeseed_trans_line', legend_label = 'RAPESEED', color = all_palettes['Set3'][12][0])
-sunflower_trans_line = fig_trans.line('x', 'y', source = sunflower_trans, name = 'sunflower_trans_line', legend_label = 'SUNFLOWER', color = all_palettes['Set3'][12][7])
-
-fig_trans.legend.visible = False 
-
 #tworzę wykres do matchowania
-fig_match = figure(x_range = (300,1050), x_axis_label = 'Wavelength [nm]', y_axis_label = 'Light intensity [a.u.]',
+fig_match = figure(x_range = (300,1050), y_range = (0, 4), x_axis_label = 'Wavelength [nm]', y_axis_label = 'Light intensity [a.u.]',
              title = 'Selected spectra', width = 900, height = 580)
 set_fig_properties(fig_match)
 
-m_red_line = fig_match.line('x', 'y', source = red_spectrum, name = 'red_line', legend_label = 'RED', color = all_palettes['Spectral'][11][10])
-m_orange_line = fig_match.line('x', 'y', source = orange_spectrum, name = 'orange_line', legend_label = 'ORANGE', color = all_palettes['Set2'][6][1])
-m_yellow_line = fig_match.line('x', 'y', source = yellow_spectrum, name = 'yellow_line', legend_label = 'YELLOW', color = all_palettes['Set2'][6][5])
-m_green_line = fig_match.line('x', 'y', source = green_spectrum, name = 'green_line', legend_label = 'GREEN', color = all_palettes['PuBuGn'][5][0])
-m_blue_line = fig_match.line('x', 'y', source = blue_spectrum, name = 'blue_line', legend_label = 'BLUE', color = all_palettes['Spectral'][11][1])
+#tworzę wykres diod LED
+fig_LED = figure(x_range = (350,750), x_axis_label = 'Wavelength [nm]', y_axis_label = 'Light intensity [a.u.]',
+             title = 'LED diodes\' spectra', width = 900, height = 580)
+set_fig_properties(fig_LED)
 
-m_diesel_abs_line = fig_match.line('x', 'y', source = diesel_abs, name = 'diesel_abs_line', legend_label = 'DIESEL', color = all_palettes['Set2'][3][2])
-m_engine_castrol_abs_line = fig_match.line('x', 'y', source = engine_castrol_abs, name = 'engine_castrol_abs_line', legend_label = 'ENGINE_CASTROL', color = all_palettes['Set2'][3][1])
-m_engine_abs_line = fig_match.line('x', 'y', source = engine_abs, name = 'engine_abs_line', legend_label = 'ENGINE', color = all_palettes['Set2'][3][0])
-m_machine_abs_line = fig_match.line('x', 'y', source = machine_abs, name = 'machine_abs_line', legend_label = 'MACHINE', color = all_palettes['Set2'][4][3])
-m_gear_abs_line = fig_match.line('x', 'y', source = gear_abs, name = 'gear_abs_line', legend_label = 'GEAR', color = all_palettes['Set3'][12][3])
-m_olive_abs_line = fig_match.line('x', 'y', source = olive_abs, name = 'olive_abs_line', legend_label = 'OLIVE', color = all_palettes['Set3'][12][4])
-m_rapeseed_abs_line = fig_match.line('x', 'y', source = rapeseed_abs, name = 'rapeseed_abs_line', legend_label = 'RAPESEED', color = all_palettes['Set3'][12][0])
-m_sunflower_abs_line = fig_match.line('x', 'y', source = sunflower_abs, name = 'sunflower_abs_line', legend_label = 'SUNFLOWER', color = all_palettes['Set3'][12][7])
+leds_lines = {}
+m_leds_lines = {}
+for line in [['red', 'RED', all_palettes['Spectral'][11][10]], ['orange', 'ORANGE', all_palettes['Set2'][6][1]], ['yellow', 'YELLOW', all_palettes['Set2'][6][5]], 
+['green', 'GREEN', all_palettes['PuBuGn'][5][0]], ['blue', 'BLUE', all_palettes['Spectral'][11][1]], ['uv', 'UV', all_palettes['Accent'][3][1]]]:
+    leds_lines[f'{line[0]}_line'] = fig_LED.line('x', 'y', source = leds[f'{line[0]}_spectrum'], name = f'{line[0]}_line', legend_label = f'{line[1]}', color = line[2])
+    leds_lines[f'{line[0]}_patch'] = fig_LED.patch('x', source = leds[f'{line[0]}_spectrum'], name = f'{line[0]}_patch', legend_label = f'{line[1]}', color = line[2], alpha = 0.2)
+    m_leds_lines[f'm_{line[0]}_line'] = fig_match.line('x', 'y', source = leds[f'{line[0]}_spectrum'], name = f'{line[0]}_line', legend_label = f'{line[1]}', color = line[2])
 
+#tworzę wykres dla widm absorpcyjnych
+fig_abs = figure(x_range = (400,800), y_range = (0, 4), x_axis_label = 'Wavelength [nm]', y_axis_label = 'Absorbance [OD]',
+             title = 'Oil\'s absorption spectrum', width = 900, height = 296)
+set_fig_properties(fig_abs)
+
+fig_trans = figure(x_range = (400,800), y_range = (0, 100), x_axis_label = 'Wavelength [nm]', y_axis_label = 'Transmitance [%]',
+             title = 'Oil\'s transmission spectrum', width = 900, height = 296)
+set_fig_properties(fig_trans)
+
+abs_lines = {}
+trans_lines = {}
+m_abs_lines = {}
+for line in [['diesel', 'DIESEL', all_palettes['Set2'][3][2]], ['castrol_edge_0w20', 'ENGINE_CASTROL_EDGE_0W-20', all_palettes['Set2'][3][1]],
+['castrol_edge_0w30', 'ENGINE_CASTROL_EDGE_0W-30', all_palettes['Set2'][3][0]], ['castrol_magnatec', 'CASTROL_MAGNATEC', all_palettes['Set2'][4][3]], 
+['comma_pro-nrg', 'COMMA PRO-NRG', all_palettes['BrBG'][11][1]], ['comma_xtech', 'COMMA XTECH', all_palettes['BrBG'][11][9]],
+['elf_evolution', 'ELF EVOLUTION', all_palettes['BuPu'][8][0]], ['millers_oils', 'MILLERS OILS', all_palettes['Set3'][12][9]],
+['mobil_super_2000', 'MOBIL SUPER 2000', all_palettes['Set3'][12][3]], ['motul_specific', 'MOTUL Specific', all_palettes['Bokeh'][3][1]], ['comma_asw', 'COMMA ASW', all_palettes['Bokeh'][5][4]],
+['febi_bilstein_axle_drive', 'FEBI BILSTEIN AXLE DRIVE', all_palettes['Set3'][12][0]], ['febi_bilstein_gear_oil', 'FEBI BILSTEIN GEAR OIL', all_palettes['Set3'][12][4]],
+['olive', 'OLIVE', all_palettes['Reds'][5][0]], ['rapeseed', 'RAPESEED', all_palettes['Bokeh'][6][5]], ['sunflower', 'SUNFLOWER', all_palettes['Cividis'][3][1]]]:
+    abs_lines[f'{line[0]}_abs_line'] = fig_abs.line('x', 'y', source = abs[f'{line[0]}_abs'], name = f'{line[0]}_abs_line', legend_label = f'{line[1]}', color = line[2])
+    trans_lines[f'{line[0]}_trans_line'] = fig_trans.line('x', 'y', source = trans[f'{line[0]}_trans'], name = f'{line[0]}_trans_line', legend_label = f'{line[1]}', color = line[2])
+    m_abs_lines[f'm_{line[0]}_abs_line'] = fig_match.line('x', 'y', source = abs[f'{line[0]}_abs'], name = f'{line[0]}_abs_line', legend_label = f'{line[1]}', color = line[2])
+
+#ustawienia legend
+fig_LED.legend.click_policy = "hide"
+fig_abs.legend.visible = False
+fig_trans.legend.visible = False  
 fig_match.legend.visible = False 
 
-#defaultowe ustawienie widoczności wykresów olejów na false
-for line_name in [diesel_abs_line, engine_castrol_abs_line, engine_abs_line, machine_abs_line, gear_abs_line,
-olive_abs_line, rapeseed_abs_line, sunflower_abs_line, diesel_trans_line, engine_castrol_trans_line, engine_trans_line,
-machine_trans_line, gear_trans_line, olive_trans_line, rapeseed_trans_line, sunflower_trans_line, m_red_line,
-m_orange_line, m_yellow_line, m_blue_line, m_green_line, m_diesel_abs_line, m_engine_castrol_abs_line,
-m_engine_abs_line, m_machine_abs_line, m_gear_abs_line, m_olive_abs_line, m_rapeseed_abs_line, m_sunflower_abs_line]:
-    line_name.visible = False
+for line in m_leds_lines:
+    m_leds_lines[line].visible = False
+
+for line in m_abs_lines:
+    m_abs_lines[line].visible = False
 
